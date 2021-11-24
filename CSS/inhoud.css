@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdn.discordapp.com/attachments/663107717086576670/912082413939724338/Ontwerp_zonder_titel.jpg");
+    background-size: cover;
+    font-family: 'Estonia', cursive;
+}
+
+.page {
+    max-height: 93vh;
+    max-width: 33vw;
+    background-image: url("https://cdn.discordapp.com/attachments/663107717086576670/912082224797605888/Blad_boek.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    border-radius: 2%;
+}
+
+.contents {
+    font-size: 1em;
+    font-size: 7vh;
+    text-decoration: underline;
+}
+
+.pagelinks {
+    max-width: fit-content;
+    position: absolute;
+    max-height: 30vh;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10%;
+    font-size: 3em;
+    font-size: 5vh;
+    text-size-adjust: auto;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.pagelinks a {
+    text-decoration: none;
+    color: black;
+}
+
+.ink {
+    display: inline-block;
+    position: static;
+    margin: auto;
+    max-height: 30%;
+    max-width: 30%;
+    padding-top: 80%;
+    padding-left: 30%;
+}

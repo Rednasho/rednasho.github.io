@@ -17,8 +17,6 @@ a {
     text-decoration: none;
 }
 
-
-
 /* page styling */
 header {
     height: 10vh;
@@ -71,14 +69,20 @@ nav ul li a:hover{
 }
 
 .section-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     height: 90vh;
-    background-image: url(../images/forest1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    background-image: url(../../images/forest2.png);
+    background-size: cover;
+}
+
+.section-one .book{
+    background-image: url(../../images/boek.png);
+    background-size: cover;
+    height: 88vh;
+    width: 30vw;
+    border-radius: 5px;
 }
 
 @media all and (max-width:1100px){
@@ -86,4 +90,3 @@ nav ul li a:hover{
         width: 12vw;
     } 
 }
-

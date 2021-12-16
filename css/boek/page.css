@@ -128,3 +128,8 @@ nav ul li a:hover{
     }
 }
 
+@media all and (min-width:1800px){
+    .pagecontent li a {
+        font-size: 3em;
+    }
+}
